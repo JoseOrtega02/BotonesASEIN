@@ -1,0 +1,13 @@
+footer {
+    height: 10vh;
+    position: absolute;
+    top: 90vh;
+    background-color: #07A27F;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+}
+
+footer h3 {
+    padding-left: 1rem;
+}
