@@ -5,6 +5,11 @@
     justify-content: center;
 }
 
+#BackBtn{
+    text-decoration: none;
+    color: inherit;
+}
+
 .cards{
     display: flex;
     flex-direction: column;
