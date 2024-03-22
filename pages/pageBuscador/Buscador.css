@@ -5,10 +5,12 @@
 
 body {
     width: 100%;
-    background: #ffffff;
+    background-color: #ffffff;
     overflow: hidden;
 }
-
+main{
+    background-color: #ffffff;
+}
 #buscador {
     position: absolute;
     top: 30vh;
@@ -20,7 +22,17 @@ body {
     background-size: contain;
     width: 20vw;
     height: 20vh;
-    #border-radius: 50%;
+    border-radius: 50%;
+}
+#BackBtn{
+    text-decoration: none;
+    color: inherit;
+    font-family: mojang;
+    font-size: 1.5rem;
+    position: relative;
+    top: -5rem;
+    left: 2rem;
+    color: #000000;
 }
 #espacio {
     width: 100vw;

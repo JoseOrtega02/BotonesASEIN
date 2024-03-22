@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buscadort</title>
-    <link rel="stylesheet" href="./Buscador.css">
-</head>
-<body id="fondo">
+    <link rel="stylesheet" href="./Buscador.css" />
+    <link rel="stylesheet" href="../../index.css" />
+  </head>
+  <body id="fondo">
     <object id="buscador"></object>
     <div id="espacio">
-        <object id="elemento"><a href="">NEXT</a></object>
+      <object id="elemento"><a href="">NEXT</a></object>
     </div>
     <main>
-        <content>
-           <button id="up"    onmouseup="parar()"><p>Up</p></button>
-           <button id="right" onmouseup="parar()"><p>Right</p></button>
-           <button id="left"  onmouseup="parar()"><p>Left</p></button>
-           <button id="down"  onmouseup="parar()"><p>Down</p></button>
-        </content>
+      <content>
+        <button id="up" onmouseup="parar()"><p>Up</p></button>
+        <button id="right" onmouseup="parar()"><p>Right</p></button>
+        <button id="left" onmouseup="parar()"><p>Left</p></button>
+        <button id="down" onmouseup="parar()"><p>Down</p></button>
+      </content>
     </main>
-        <button id="boton" onclick="cambiaFondo()"></button>
+    <a href="../../actividad.html" id="BackBtn">< back</a>
+
     <script src="./Buscador.js"></script>
-</body>
+  </body>
 </html>
